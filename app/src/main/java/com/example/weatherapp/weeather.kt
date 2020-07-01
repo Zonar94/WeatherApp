@@ -4,13 +4,16 @@ import android.os.AsyncTask
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.RelativeLayout
 import android.widget.TextView
+import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
 import java.net.URL
 import java.text.SimpleDateFormat
 import java.util.*
+
 
 class weeather : AppCompatActivity() {
 
@@ -99,5 +102,8 @@ class weeather : AppCompatActivity() {
             }
 
         }
+    }
+
+
     }
 }
